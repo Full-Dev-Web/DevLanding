@@ -21,3 +21,11 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
+.logo{
+  width: 70%;
+}
+
+nav ul a, .side-nav a{
+	font-size: 1.2em;
+}
