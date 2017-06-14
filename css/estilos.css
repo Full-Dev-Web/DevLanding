@@ -30,3 +30,6 @@
 nav ul a, .side-nav a{
 	font-size: 1.2em;
 }
+#sidenav-overlay {
+  z-index:0;
+}
