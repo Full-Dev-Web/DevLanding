@@ -33,3 +33,7 @@ nav ul a, .side-nav a{
 #sidenav-overlay {
   z-index:0;
 }
+
+.side-nav a:hover {
+    background-color: #562d02;
+}
