@@ -3,7 +3,9 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/icon.woff2) format('woff2');
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../fonts/icon.woff2) format('woff2');
 }
 
 .material-icons {
@@ -22,14 +24,14 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.logo{
+.logo {
   width: 90%;
   margin-top: 4px;
 }
 
-nav ul a, .side-nav a{
-	font-size: 1.2em;
+nav ul a, .side-nav a {
+  font-size: 1.2em;
 }
 #sidenav-overlay {
-  z-index:0;
+  z-index: 0;
 }
