@@ -33,5 +33,11 @@ nav ul a, .side-nav a {
   font-size: 1.2em;
 }
 #sidenav-overlay {
-  z-index: 0;
+
+  z-index:0;
 }
+
+.side-nav a:hover {
+    background-color: #562d02;
+}
+
