@@ -1,49 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Aprendiendo JavaScript</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
-    <link rel="stylesheet" href="css/estilos.css">
-    
+  <meta charset="UTF-8">
+  <title>Aprendiendo JavaScript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="css/estilos.css">
+
 </head>
+
 <body>
 
-<!-- Inicia el nav o menu responsivo -->
-    <div class="navbar-fixed">
-      <nav> <!-- Etiqueta semántica -->
-        <div class="nav-wrapper orange darken-4">
-          <a href="#" class="brand-logo"><img src="img/logo.png" alt="thefulldev" class="logo"></a>
-          <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Quienes Somos</a></li>
-            <li><a href="#">Tecnologías</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-          <ul class="side-nav orange darken-4" id="mobile-menu">
-            <li ><a href="#" class="white-text">Inicio</a></li>
-            <li><a href="#" class="white-text">Quienes Somos</a></li>
-            <li><a href="#" class="white-text">Tecnologías</a></li>
-            <li><a href="#" class="white-text">Contacto</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <!-- Inicia el nav o menu responsivo -->
+  <div class="navbar-fixed">
+    <nav>
+      <!-- Etiqueta semántica -->
+      <div class="nav-wrapper orange darken-4">
+        <a href="#" class="brand-logo"><img src="img/logo.png" alt="thefulldev" class="logo"></a>
+        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Inicio</a></li>
+          <li class="active"><a href="#">Quiénes Somos</a></li>
+          <li><a href="#">Tecnologías</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <ul class="side-nav orange darken-4" id="mobile-menu">
+          <li><a href="#" class="white-text">Inicio</a></li>
+          <li class="active"><a href="#" class="white-text">Quiénes Somos</a></li>
+          <li><a href="#" class="white-text">Tecnologías</a></li>
+          <li><a href="#" class="white-text">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
-<!-- Inicia el header -->
+
+  <!-- Inicia el header -->
   <header>
-
+      <h1>Aqui va el slider</h1>
   </header>
-  
+
   <!-- Inicia las secciones de contenido dentro de main -->
   <main>
     <!-- Sección de Quienes somos -->
     <section>
-      
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align">
+            <h1>Las mentes criminales...</h1>
+
+            <!-- Carousel que muestra a los integrantes -->
+            <div class="carousel">
+              <!-- Cada integrante debe tener la siguiente seccion -->
+              <a class="carousel-item" href="#one!">
+                <div class="card orange darken-4 z-depth-3">
+                  <div class="card-content white-text">
+                    <img src="https://scontent.fmex2-1.fna.fbcdn.net/v/t1.0-9/17201152_423330928016117_3269482182890369131_n.jpg?oh=9ebfa365ed0910f66592fb53c32e46a5&oe=59E29E81"
+                      class="circle responsive-img" />
+
+                      <!-- Nombre del integrante -->
+                    <span class="card-title">Esteban Galicia</span>
+
+                    <!-- Una descripcion de quien es y que maneja -->
+                    <div class="resenia hide">Administrador de sistemas 3/4 de tiempo, programador 1/4 de tiempo :), NetAPP, Servidores, Respaldos,
+                      Redes Cisco, Firewall ASA, React, Javascipt, HTML, NodeJS</div>
+                      <!-- Si tiene pagina agregarla si no dejarlo en blanco -->
+                    <div class="personal-web-page  hide">https://egalicia.ga</div>
+
+                    <!-- Si desea mostrar de donde es, si no dejar en blanco -->
+                    <div class="ubicacion  hide">Mexico D.F</div>
+                  </div>
+                </div>
+              </a>
+
+              <a class="carousel-item" href="#one!">
+                <div class="card orange darken-4 z-depth-3">
+                  <div class="card-content white-text">
+                    <img src="https://avatars3.githubusercontent.com/u/1291626?v=3&s=400" class="circle responsive-img" />
+                    <span class="card-title">Andrés Pistoni</span>
+                    <div class="resenia  hide"></div>
+                    <div class="personal-web-page  hide">http://andrespistoni.com</div>
+                    <div class="ubicacion  hide"></div>
+                  </div>
+                </div>
+              </a>
+
+              <a class="carousel-item" href="#one!">
+                <div class="card orange darken-4 z-depth-3">
+                  <div class="card-content white-text">
+                    <img src="https://avatars3.githubusercontent.com/u/9327820?v=3&s=400" class="circle responsive-img" />
+                    <span class="card-title">Paul</span>
+                  </div>
+                </div>
+                <div class="resenia  hide"></div>
+                <div class="personal-web-page  hide"></div>
+                <div class="ubicacion  hide"></div>
+              </a>
+
+            </div>
+            
+            <!-- Detalle del integrante seleccionado -->
+            <ul class=" row collection detalles-personales" />
+
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Sección de Tecnologías -->
@@ -56,22 +119,54 @@
 
     </section>
   </main>
-  
-<!-- Sección de Pie de página -->
+
+  <!-- Sección de Pie de página -->
   <footer>
-  
+
   </footer>
-   
-    
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/materialize.min.js"></script>
 
-    <script>
-        $( document ).ready(function(){
-            $(".button-collapse").sideNav();
-            $(".dropdown-button").dropdown();
-        })
-    </script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(() => {
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown();
+      $('.carousel').carousel({
+        indicators: true,
+        dist: -200,
+        duration: 300,
+        shift: 50,
+        onCycleTo: () => {
+
+          //Obtenemos los elementos de la tarjeta
+          var nombreDeElementoDeEquipo = $("a.carousel-item.active span.card-title").text() || null;
+          var resenia = $("a.carousel-item.active div.resenia").text() || null;
+          var personalWebPage = $("a.carousel-item.active div.personal-web-page").text() || null;
+          var ubicacion = $("a.carousel-item.active div.ubicacion").text() || null;
+
+          //lista para visualizar los detalles personales del elemento del equipo seleccionado
+          var detallesPersonales = $("ul.detalles-personales").empty()
+
+          //vamos comprobando si hubo texto, si lo hubo se agrega la informacion a la lista para ser vista
+          if (nombreDeElementoDeEquipo)
+            detallesPersonales.append(`<li class="collection-item"><h3>${nombreDeElementoDeEquipo}</h3></li>`)
+
+          if (resenia)
+            detallesPersonales.append(`<li class="collection-item">${resenia}</li>`)
+
+          if (personalWebPage)
+            detallesPersonales.append(`<li class="collection-item"><a target="_blank" href="${personalWebPage}">${personalWebPage}</a></li>`)
+
+          if (ubicacion)
+            detallesPersonales.append(`<li class="collection-item">${ubicacion}</li>`)
+
+        }
+      });
+    });
+  </script>
 </body>
+
 </html>
