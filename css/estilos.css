@@ -40,4 +40,72 @@ nav ul a, .side-nav a {
 .side-nav a:hover {
     background-color: #562d02;
 }
+        /*Estilos del footer*/
+.footer{
+    background: #f0f0f0;
+    padding: 4em 0 6em 0;
+    text-align: center;
+    position: relative;
+  }
+
+    .footer .fa a {
+      -moz-transition: opacity 0.2s ease-in-out;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -ms-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
+      opacity: 0.35;
+    }
+
+      .footer .fa a:hover {
+        opacity: 0.75;
+      }
+
+    .footer .copyright {
+      color: #999.
+      font-size: 0.9em;
+      line-height: 1em;
+      margin: 2em 0 0 0;
+      padding: 0;
+      text-align: center;
+    }
+
+      .footer .copyright a {
+        color: inherit;
+      }
+
+      .footer .copyright li {
+        border-left: solid 1px #dddddd;
+        display: inline-block;
+        list-style: none;
+        margin-left: 1em;
+        padding-left: 1em;
+      }
+
+      
+  
+        
+  ul.icons {
+      cursor: default;
+      list-style: none;
+      padding-left: 0;
+    }
+
+      ul.icons li {
+        display: inline-block;
+        padding: 0 1.25em 0 0;
+      }
+
+        /*ul.fa li:last-child {
+          padding-right: 0;
+        }*/
+
+        ul.icons li .fa {
+          font-size: 1.75em;
+          color: #E36E2E;
+        }
+
+          ul.icons li .fa:hover{
+            font-size: 1.75em;
+            color: #F15B2B;
+          }
 
