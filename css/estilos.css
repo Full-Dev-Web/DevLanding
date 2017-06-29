@@ -32,6 +32,55 @@
 nav ul a, .side-nav a {
   font-size: 1.2em;
 }
+
+header{
+  width: auto;
+  height: 600px;
+  bottom: 2px;
+
+}
+header .fondoHeader{
+   overflow-x:hidden; 
+  position: relative;
+  height: 100%;
+  width: auto;
+  background:url("../img/fondoHeader.png");
+  -webkit-background-size: 100% 100%;           /* Safari 3.0 */
+  -moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: 100% 100%;           /* Opera 9.5 */
+   background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+  opacity: 1;
+}
+header .fondoHeader h1{
+  display: inline;
+  padding: 0px;
+  top: 350px;
+  position: relative;
+  width:100%;
+  font-size: 1.4em;
+  text-align:center;
+  color: white;
+  font-weight: bold;
+  
+}
+#intro:hover{
+    color: black;
+   }
+
+header a {
+  top:400px;
+  width: 70%;
+  cursor: pointer;
+ 
+}
+.btnHeader {
+   margin-left: 30%;
+   text-align: center;
+}
+ .waves-effect{
+  background: #018cde;
+ }
+  
 #sidenav-overlay {
 
   z-index:0;
@@ -109,3 +158,132 @@ nav ul a, .side-nav a {
             color: #F15B2B;
           }
 
+
+
+
+
+
+@media Screen and (min-width:480px){
+ 
+ header .fondoHeader h1{
+       display:inline-table;
+       padding: 0px;
+       top: 330px;
+       position: relative;
+       width:100%;
+       font-size: 2em;
+       text-align:center;
+       color:white;
+       font-weight: bold;
+   }
+   #intro:hover{
+    color: #018cde;
+   }
+
+   header a {
+      top:370px;
+      width: 30%;
+      cursor: pointer;
+ 
+     }
+    .btnHeader {
+     margin-left: 35%;
+     text-align: center;
+     }
+     .waves-effect{
+      background: #018cde;
+     }
+
+
+
+}
+@media Screen and (min-width:600px){
+
+ header{
+
+    width: auto;
+    height:550px;
+
+   }
+   #intro:hover{
+    color: black;
+   }
+   header .fondoHeader h1{
+       display:inline-table;
+       padding: 0px;
+       top: 320px;
+       position: relative;
+       width:100%;
+       font-size: 2em;
+       text-align:center;
+       color:white;
+       font-weight: bold;
+   }
+   header a {
+      top:350px;
+      width: 20%;
+      cursor: pointer;
+ 
+     }
+    .btnHeader {
+     margin-left: 40%;
+     text-align: center;
+     }
+     .waves-effect{
+      background: #018cde;
+     }
+
+
+}
+@media Screen and (min-width:767px){
+
+   header{
+
+    width: auto;
+    height:550px;
+
+   }
+   header.fondoheader{
+    overflow-x:hidden;
+    height: 100%;
+    position: relative;
+    opacity: 0.6;
+   }
+   header .fondoHeader h1{
+       display:inline-table;
+       padding: 0px;
+       top: 250px;
+       position: relative;
+       width:100%;
+       font-size: 3em;
+       text-align:center;
+       color:white;
+       font-weight: bold;
+    
+  
+     }
+
+    
+      header a {
+      top:300px;
+      width: 20%;
+      cursor: pointer;
+ 
+     }
+    .btnHeader {
+     margin-left: 40%;
+     text-align: center;
+     }
+     .waves-effect{
+      background: #018cde;
+     }
+     #intro:hover{
+    color: black;
+     }
+
+
+     }
+
+     @media Screen and (min-width:900px){
+     
+    
